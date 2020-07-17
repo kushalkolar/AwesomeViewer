@@ -56,4 +56,6 @@ if __name__ == '__main__':
     viewer = Viewer()
     viewer.show()
 
+    viewer.resize(1000, 900)
+
     app.exec_()
